@@ -12,6 +12,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib\\junit-4.13.2.jar",
-        "test-lib\\**\\*.jar"
-    ]
+        "lib\\**\\*.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
