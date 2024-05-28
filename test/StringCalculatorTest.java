@@ -33,7 +33,7 @@ public class StringCalculatorTest {
         assertEquals(6, cal.add("1,2:3"));
     }
 
-    @Test
+    @Test(expected = RuntimeException.class)
     public void add_negetive() throws Exception {
         cal.add("-1,2,3");
     }
